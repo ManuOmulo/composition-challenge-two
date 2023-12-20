@@ -34,6 +34,6 @@ public class Bed {
   }
 
   public void make() {
-    System.out.println("Making the bed");
+    System.out.print("Bed -> Making | ");
   }
 }

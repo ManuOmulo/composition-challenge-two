@@ -20,11 +20,12 @@ public class Bedroom {
     this.lamp = lamp;
   }
 
-  public Bed getBed() {
-    return bed;
+  public Lamp getLamp() {
+    return lamp;
   }
 
   public void makeBed() {
+    System.out.print("Bedroom -> Making bed | ");
     bed.make();
   }
 }
